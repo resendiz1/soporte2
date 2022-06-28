@@ -222,18 +222,18 @@
           <h2 class="text-center">Formulario de Contacto</h2>
           <form action="https://formsubmit.co/arturoresendiz75480@gmail.com" method="POST">
             <div class="form-outline m-2">
-              <input type="text" name="name" id="nombre" class="form-control">
+              <input type="text" name="name" id="nombre" class="form-control" required>
               <label for="nombre" class="form-label">Nombre completo</label>
-              <input type="hidden" name="_next" value="https://google.com">
+              <input type="hidden" name="_next" value="https://resendiz1.github.io/soporte2/gracias">
             </div>
 
             <div class="form-outline m-2">
-              <input type="text" name="phone" class="form-control" id="numero">
+              <input type="number" name="phone" class="form-control" id="numero" required>
               <label class="form-label" for="numero">Número telefónico</label>
             </div>
 
             <div class="form-outline m-2">
-              <textarea class="form-control" name="message" id="textAreaExample" rows="4"></textarea>
+              <textarea class="form-control" name="message" id="textAreaExample" rows="4" required></textarea>
               <label class="form-label" for="textAreaExample">Message</label>
             </div>
             <div class="form-outline text-center m-3">
