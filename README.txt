@@ -1,8 +1,1 @@
-MDB5
-Version: FREE 4.2.0
-
-Documentation:
-https://mdbootstrap.com/docs/standard/
-
-Contact:
-office@mdbootstrap.com
+<h1>Página para promocionar el soporte técnico en mi aldea </h1>
